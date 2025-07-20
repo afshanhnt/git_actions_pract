@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - demo
+      - demo2
 
 jobs:
   hello-world:
