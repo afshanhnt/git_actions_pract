@@ -1,0 +1,16 @@
+name: "Hello World by Github Actions"
+on:
+  push:
+    branches:
+      - main
+      - demo
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Print Hello World!!!!"
+        run: echo "Hello World!!!! I'm inside the ephemeral machine through GitHub Actions!!!"
+        
+      - name: "Printing out date!"
+        run: date
